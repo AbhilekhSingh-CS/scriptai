@@ -208,6 +208,10 @@ Runs at `http://localhost:5173`.
 - **Agentic flow** — search the web for current information on the topic, draft, self-critique against a checklist, then revise
 - **Evaluation** — LLM-as-judge scoring on structure, relevance and tone, since there is no single correct script to compare against
 
+**Live demo:** https://scriptai-ten.vercel.app
+
+> Hosted on free tiers — the API sleeps after inactivity, so the first request may take up to a minute.
+
 ## Author
 
 **Abhilekh Singh** — B.Tech Computer Science, Pranveer Singh Institute of Technology
