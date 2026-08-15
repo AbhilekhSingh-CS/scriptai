@@ -22,7 +22,11 @@ function App() {
     setLoading(true);
 
     try {
-      const res = await axios.post(API_URL, { topic, tone, duration });
+      const res = await axios.post(
+  API_URL,
+  { topic, tone, duration },
+  { headers: { 'x-api-key': import.meta.env.VITE_API_KEY } }
+);
       setScript(res.data.script);
       setUsage(res.data.usage);
     } catch (err) {
